@@ -1,7 +1,4 @@
-// Online Java Compiler
-// Use this editor to write, compile and run your Java code online
-
-class HelloWorld {
+class StringPrac {
     //start here
     public static int lastDigit(int number) { 
         return Math.abs(number) % 10;
