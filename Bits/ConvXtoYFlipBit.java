@@ -7,10 +7,14 @@ public class ConvXtoYFlipBit {
         Scanner sc = new Scanner(System.in);
         
         n = sc.nextInt();
-        x = sc.nextInt();
-        y = sc.nextInt();
+        for(int cnt=0;cnt<n;cnt++){
+            x = sc.nextInt();
+            y = sc.nextInt();
+            System.out.println(countBits(x, y));           
+        }
+
         
-        System.out.println(countBits(x, y));
+
     }
 
     public static int countBits(int x, int y) {
